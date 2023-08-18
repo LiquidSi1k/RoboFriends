@@ -1,0 +1,33 @@
+body {
+  background: linear-gradient(
+      to right top,
+      #051937,
+      #004d7a,
+      #008793,
+      #00bf72,
+      #a8eb12
+    )
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* fonts */
+@font-face {
+  font-family: "ProcrastinatingPixie";
+  src: url(./ProcrastinatingPixie-WyVOO.ttf);
+}
+@font-face {
+  font-family: "TokyoSoft";
+  src: url(./TokyoSoft.ttf);
+}
+h1 {
+  font-family: "TokyoSoft", cursive;
+  font-size: 9vmin;
+  font-style: italic;
+  color: #bf8c00;
+  letter-spacing: 5px;
+  text-shadow: 3px 3px 20px #bf2e00, -2px 1px 30px #bf2e00;
+}
