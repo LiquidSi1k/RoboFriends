@@ -19,15 +19,30 @@ body {
   font-family: "ProcrastinatingPixie";
   src: url(./ProcrastinatingPixie-WyVOO.ttf);
 }
+
 @font-face {
   font-family: "TokyoSoft";
   src: url(./TokyoSoft.ttf);
 }
-h1 {
+
+/* font Styling */
+h1,
+h3 {
   font-family: "TokyoSoft", cursive;
   font-size: 9vmin;
   font-style: italic;
   color: #bf8c00;
   letter-spacing: 5px;
   text-shadow: 3px 3px 20px #bf2e00, -2px 1px 30px #bf2e00;
+}
+
+h3 {
+  font-size: 6vmin;
+}
+
+/* new robots card style */
+
+.card-top {
+  border-top: 4px ridge black;
+  margin-bottom: 5vmin;
 }
