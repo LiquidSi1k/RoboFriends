@@ -1,5 +1,5 @@
 RoboFriends
-React App email contacts repository
+React App email contacts bookmark
 
 Fun Web app that collects email addresses and individually generates unique robot avatars.
 
